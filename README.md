@@ -48,22 +48,22 @@ Test coverage report::
 ```
 ## 📂 Project Structure
 
-transaction_pipeline/
-├── data/                   # Sample CSV files
-│   └── transactions.csv
-├── db/                     # Database files (gitignored)
-├── src/                    # Source code
-│   ├── cli.py              # Command-line interface
-│   ├── database.py         # Database operations
-│   ├── models.py           # Data models
-│   ├── processor.py        # Data processing
-│   └── utils.py            # Helper functions
-├── tests/                  # Test cases
-│   ├── test_database.py
-│   ├── test_integration.py
-│   └── test_processor.py
-├── .gitignore
-├── LICENSE
-├── README.md
-├── requirements.txt
-└── setup.py
+- transaction_pipeline/
+  - data/ (`transactions.csv`)
+  - db/(`transactions.db`) (*gitignored*)
+  - src/
+    - `cli.py` (CLI interface)
+    - `database.py` (DB operations)
+    - `models.py` (Data models)
+    - `processor.py` (Data processing)
+    - `utils.py` (Helpers)
+  - tests/
+    - `test_database.py`
+    - `test_integration.py`
+    - `test_processor.py`
+  - Config files:
+    - `.gitignore`
+    - `LICENSE`
+    - `README.md`
+    - `requirements.txt`
+    - `setup.py`
