@@ -17,7 +17,7 @@ A Python application that processes CSV transaction data, cleans it, and stores 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/transaction-pipeline.git
+   git clone https://github.com/shuhratkulboboev/Transaction_pipeline.git
    cd transaction-pipeline
 2. Create and activate virtual environment (Windows):
    ```bash
