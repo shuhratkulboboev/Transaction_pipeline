@@ -36,3 +36,33 @@ Process CSV File:
 View Summary:
 ```bash
    transaction-pipeline summary
+```
+## 🧪 Testing
+Run all tests:
+```bash
+   pytest tests/ -v
+```
+Test coverage report::
+```bash
+   pytest --cov=src --cov-report=html
+```
+## 📂 Project Structure
+transaction_pipeline/
+├── data/                   # Sample CSV files(created by myself)
+│   └── transactions.csv
+├── db/transactions.db     # Database files (gitignored)
+├── src/                    # Source code
+│   ├── cli.py              # Command-line interface
+│   ├── database.py         # Database operations
+│   ├── models.py           # Data models
+│   ├── processor.py        # Data processing
+│   └── utils.py            # Helper functions
+├── tests/                  # Test cases
+│   ├── test_database.py
+│   ├── test_integration.py
+│   └── test_processor.py
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
