@@ -1,0 +1,28 @@
+# Create .gitignore if not exists
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Virtual environment
+venv/
+
+# Database files
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# OS generated
+.DS_Store
+Thumbs.db
+"@ > .gitignore

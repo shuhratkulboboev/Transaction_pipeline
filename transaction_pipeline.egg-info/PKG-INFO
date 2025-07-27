@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: transaction_pipeline
+Version: 0.1
+Requires-Dist: python-dateutil>=2.8.2
+Dynamic: requires-dist
