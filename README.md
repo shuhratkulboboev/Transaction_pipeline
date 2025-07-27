@@ -47,10 +47,11 @@ Test coverage report::
    pytest --cov=src --cov-report=html
 ```
 ## 📂 Project Structure
+
 transaction_pipeline/
-├── data/                   # Sample CSV files(created by myself)
+├── data/                   # Sample CSV files
 │   └── transactions.csv
-├── db/transactions.db     # Database files (gitignored)
+├── db/                     # Database files (gitignored)
 ├── src/                    # Source code
 │   ├── cli.py              # Command-line interface
 │   ├── database.py         # Database operations
