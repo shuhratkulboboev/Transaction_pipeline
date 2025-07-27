@@ -28,3 +28,10 @@ A Python application that processes CSV transaction data, cleans it, and stores 
    pip install -r requirements.txt
    # For development, also install:
    pip install -e .
+## 🚀 Usage
+Process CSV File:
+```bash
+   transaction-pipeline load data/transactions.csv
+View Summary:
+```bash
+   transaction-pipeline summary
