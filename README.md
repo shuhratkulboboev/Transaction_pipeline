@@ -4,7 +4,7 @@ A Python application that processes CSV transaction data, cleans it, and stores 
 
 ## 📦 Features
 
-- **CSV Processing**: Ingests transaction data from CSV files
+- **CSV Processing**: Ingests transaction data from CSV files. I created CSV myself for checking the pipeline
 - **Data Cleaning**:
   - Standardizes date formats to ISO (YYYY-MM-DD)
   - Removes transactions with negative/null amounts
