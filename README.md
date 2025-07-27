@@ -23,3 +23,8 @@ A Python application that processes CSV transaction data, cleans it, and stores 
    ```bash
    python -m venv venv
    venv\Scripts\activate
+3. Install dependencies::
+   ```bash
+   pip install -r requirements.txt
+   # For development, also install:
+   pip install -e .
