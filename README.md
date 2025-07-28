@@ -46,6 +46,23 @@ Test coverage report::
 ```bash
    pytest --cov=src --cov-report=html
 ```
+## 🚀 Docker Usage
+Build the image:
+```bash
+   docker build -t transaction-pipeline .
+```
+Process CSV:
+```bash
+   docker run --rm -v ${PWD}/data:/app/data -v ${PWD}/db:/app/db transaction-pipeline load data/transactions.csv
+```
+Show summary:
+```bash
+   docker run --rm -v ${PWD}/db:/app/db transaction-pipeline summary
+```
+Run tests manually:
+```bash
+   docker run --rm --entrypoint pytest transaction-pipeline tests/ -v
+```
 ## 📂 Project Structure
 
 - transaction_pipeline/
@@ -67,3 +84,4 @@ Test coverage report::
     - `README.md`
     - `requirements.txt`
     - `setup.py`
+    - `Docker`
