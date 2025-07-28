@@ -84,4 +84,4 @@ Run tests manually:
     - `README.md`
     - `requirements.txt`
     - `setup.py`
-    - `Docker`
+    - `Dockerfile`
